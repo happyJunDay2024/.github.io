@@ -4,14 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HBDtoJun!!</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.7)), url("background1.jpg");
+        }
+        h2, p {
+            display: flex;
+            justify-content: center;
+            color: rgb(33, 33, 33);
+        }
+        #output {
+            font-size: 10px;
+            color: gray;
+        }
+    </style>
 </head>
 <body>
+    <h2>As always, I wish you a happy birthday.</h2>
+    <p>eat well,</p>
+    <p>work well,</p>
+    <p>and sleep well (smile:)</p>
 
-<h2>I wish you...</h2>
-<p>are HAPPY</p>
-<p>sleep well</p>
-<p>eat well</p>
-<p>and work well (smile:)</p>
-
+    <div id="output">
+        <script class="us">
+            var i = 31;
+            while (i<3333) {
+                document.write("Junye " + i + ", Sasita " + (i-5) + ", ");
+                i++;
+            }
+            document.write("...");
+        </script>
+    </div>
 </body>
 </html>
