@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>HBDtoJun!</title>
     <style>
         /* Basic styling for demonstration purposes */
         body {
             font-family: Arial, sans-serif;
+            background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3)), url("background.jpg");
+            background-size: cover;
+        }
+        p {
+          font-size: 10px;
         }
         .container {
             width: 300px;
@@ -26,7 +31,7 @@
             box-sizing: border-box;
         }
         input[type="submit"] {
-            background-color: #4CAF50;
+            background-color: #4d84ea;
             color: white;
             cursor: pointer;
         }
@@ -35,12 +40,14 @@
 <body>
 
 <div class="container">
-    <h2>Login</h2>
+    <h2>Junye, Login here!</h2>
     <form id="loginForm">
         <input type="text" id="username" placeholder="Username" required><br>
         <input type="password" id="password" placeholder="Password" required><br>
         <input type="submit" value="Login">
     </form>
+    <p>Username: JunyeIsHappy</p>
+    <p>Password: Morethanorequalto9</p>
 </div>
 
 <script>
@@ -52,11 +59,11 @@
         var password = document.getElementById("password").value;
 
         // Check if username and password are correct (For demonstration purposes, we'll use hardcoded values)
-        if (username === "iMissSasita" && password === "530notYet520") {
+        if (username === "JunyeIsHappy" && password === "Morethanorequalto9") {
             // Redirect to another page
-            window.location.href = "welcome.html";
+            window.location.href = "53330.html";
         } else {
-            alert("Invalid username or password. Please try again.");
+            alert("Invalid username/password. Oh no, pls try again!");
         }
     });
 </script>
